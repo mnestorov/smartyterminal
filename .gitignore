@@ -1,0 +1,9 @@
+vendor
+composer.phar
+composer.lock
+node_modules
+bower_componenets
+php_code_quality
+.idea
+/nbproject/private/
+.DS_Store
