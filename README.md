@@ -1,6 +1,5 @@
 # <span style="color:#28b76b">SmartyTerminal v1.0</span>
 
----
 
 SmartyTerminal is a Laravel console/terminal, for the SmartyCMS content management system (CRUD) package.
 
@@ -26,8 +25,6 @@ For usage documentation see **Usage section** bellow.
 **Supports:** Laravel 6.0+, 7.0+, 8.0+ and PHP 7.2+, 8.0+
 
 **Important:** Please, make sure you're at the latest version of Laravel 6, 7 or 8 to get PHP 8 support.
-
----
 
 ## Installation
 
@@ -86,8 +83,6 @@ Add the service provider to the **providers** array in `config/app.php` for Lara
 SmartyStudio\SmartyTerminal\TerminalServiceProvider::class,
 ```
 
----
-
 ## Compiling Assets (Mix)
 
 **npm install**
@@ -140,21 +135,15 @@ $ npm install
 
 `$ npm run dev` or `$ npm run prod` ('prod' is build for production environment).
 
----
-
 ## Publish Assets, Views and Config files
 
 Now, when your package's users execute the vendor:publish command, your assets will be copied to the specified publish location. Since you will typically need to overwrite the assets every time the package is updated, you may use the --force flag:
 
 `$ php artisan vendor:publish --tag=smartyterminal --force`
 
----
-
 ## Terminal Path
 
 `https://yourwebiste.com/path/to/terminal`
-
----
 
 ## Config File
 
@@ -231,8 +220,6 @@ return [
 ];
 ```
 
----
-
 ## Add Command
 
 *file: src/Console/Commands/MyNewCommandClass.php*
@@ -271,7 +258,6 @@ class Inspire extends Command implements TerminalCommand
     }
 }
 ```
----
 
 ## Commands Usage
 
@@ -353,19 +339,13 @@ $ artisan tinker
 $ vi server.php
 ```
 
----
-
 ## TODO
 
 - [] Add tests
 
----
-
 ## Documentation
 
 Visit our [Documentation](https://smartystudio.github.io/smartycms/terminal) for detailed usage instructions.
-
----
 
 ## Contributing
 
@@ -374,8 +354,6 @@ Contributions to the SmartyCMS library are welcome. Please note the following gu
 -   Follow [PSR-4](http://www.php-fig.org/psr/psr-4/) coding standards.
 -   Write tests for new functions and added features
 -   use [Laravel Mix](https://laravel.com/docs/master/mix) for assets
-
----
 
 ## License
 
